@@ -1,0 +1,5 @@
+Ejecutar stylelint
+npm run lint:css
+
+Fixear errores encontrados por stylelint
+npx stylelint "**/*.{css,scss}" --fix

@@ -11,6 +11,17 @@
   outline-offset: 2px;
 }
 
+.prueba{
+
+
+
+                    outline:1px solid red;
+
+
+
+
+}
+
 /* Fondo Login */
 @layer components {
   @keyframes hero-gradient-animation {

@@ -1,5 +1,12 @@
-Ejecutar stylelint
+-- Ejecutar stylelint
 npm run lint:css
 
-Fixear errores encontrados por stylelint
+-- Fixear errores encontrados por stylelint
 npx stylelint "**/*.{css,scss}" --fix
+
+
+-- Ejecutar ESLint
+npx eslint . --ext .js
+
+-- Fixear Automaticamente
+npx eslint . --ext .js --fix

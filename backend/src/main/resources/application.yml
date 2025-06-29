@@ -2,6 +2,10 @@ server:
     http2:
         enabled: true
 
+aes:
+    secret:
+        key: m7H#pR9zBv4@kX2f
+
 spring:
     datasource:
         url: jdbc:postgresql://${POSTGRES_DB_SERVER_ADDRESS:localhost}:${POSTGRES_DB_SERVER_PORT:5432}/NotsBlock

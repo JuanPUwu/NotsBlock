@@ -1,4 +1,4 @@
-package com.notsblock.notsblock.Security.DTO;
+package com.notsblock.notsblock.Security.response;
 
 import lombok.Data;
 import lombok.Getter;
@@ -8,7 +8,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class NotaResponse {
-    private String usuario;
+    private Long id;
     private String titulo;
     private String contenido;
+    private Boolean enPapelera;
 }

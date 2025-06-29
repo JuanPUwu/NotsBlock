@@ -22,8 +22,11 @@ public class Nota {
     @Column
     private String titulo;
 
-    @Column(nullable = false)
+    @Column
     private String contenido;
+
+    @Column(nullable = false)
+    private Boolean enPapelera;
 
     @ManyToOne
     @JoinColumn(name = "usuario_id")
